@@ -8,7 +8,7 @@ body {
 }
 
 #menu{
-  background-color: #1a186b;
+  background-color: rgba(26,24,107,0.75);
   color:white;
   border:2px solid black;
 
@@ -17,15 +17,16 @@ body {
 #titulo {
   font-family: Georgia;
   font-size: 5rem;
-
-
+  padding-top:20px;
+  padding-bottom:20px;
 }
 #logo {
   position:absolute;
   height: 200px;
   width:200px;
   right:0;
-  margin-top:-23px;
+  margin-top:-40px;
+
 }
 #nosotros {
   margin-top:50px;
@@ -35,6 +36,10 @@ body {
   border:1px solid black;
   border-radius: 10px;
 }
+#otro {
+  margin-left: -16px
+
+}
 
 .btn.btn-default{
   background-color: #1a186b;
@@ -42,6 +47,10 @@ body {
   border-radius: 10px;
   color: white;
 
+}
+.navbar-inverse {
+  background:none;
+  border:none;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
