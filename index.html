@@ -7,9 +7,9 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="img/logosf5.png">
 
-  <title>Huella Verde</title>
+  <title>Intermediarios Huella Verde</title>
 
   <!-- Bootstrap core CSS -->
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -171,8 +171,8 @@
 
   <div class="row featurette">
     <div class="col-md-10">
-      <h2 class="featurette-heading" id= "nosotros">Acerca de Nosotros<span class="text-muted"></span></h2>
-      <p class="lead">Este medio interactivo facilita el diligenciamiento de datos de los donadores, con sus aportes, fecha y lugar en el que desea que su aporte sea recogido; cumpliremos con la función de ser intermediarios entre ambas partes, para agilizar los procesos de recolección de donaciones por medio de los datos recogidos por nuestra página web.</p>
+      <h2 class="featurette-heading" id= "nosotros">Acerca de nosotros<span class="text-muted"></span></h2>
+      <p class="lead">Este medio interactivo facilita el diligenciamiento de los datos de los donantes, con sus aportes, fecha y lugar en el que desea que su donación sea recogida por la fundación; cumpliremos con la función de ser intermediarios entre fundación y el donante, para agilizar los procesos de recolección de donaciones por medio de los datos recogidos por nuestra página web.</p>
     </div>
     <!--<div class="col-md-5">
       <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -209,15 +209,25 @@
 
 
 <!-- FOOTER -->
-<footer>
-  <div class="col-md-10">
-    <center><h4><b><p class="" >Correo: fundacion-huellaverde@gmail.com ||  PBX: 667 5555   Celular: 318 230 5726
-      <br> Dirección: carrera 44 No.9-25 Barrio Cámbulos
-      <br>Cali, Colombia</p></b></h4></center>
-    </div>
-    <center><p><a class="btn btn-default"  href="" role="button">VOLVER AL INCIO &raquo;</a></p></center>
+<div class="row">
+  <div class="col-lg-4">
 
-    <!--<p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+<a href="https://www.facebook.com/Intermediarios-Huella-Verde-448756955471961/"><div class="hola">
+    <center> <Span class = "chao"> f </ span> </center>
+  </div></a>
+  <a href= "https://www.instagram.com/intermediarios.huellaverde/?hl=es"> <img id="int" src="http://www.rckiss.com/pub/static/version1489425347/frontend/Rckiss/web2017/es_MX/images/icons/instagram.png"/>
+</div>
+</div>
+  <center><p><a class="btn btn-default"  href="" role="button">VOLVER AL INCIO &raquo;</a></p></center>
+<footer>
+<div claas="row">
+  <div class="col-md-10" id = "contacto">
+    <center><h4><b><p class="info" >Correo: intermediarios.huellaverde@gmail.com ||  Telefono: 667 5555   Celular: 318 230 5726
+      <br /> Dirección: carrera 44 No.9-25 Barrio Cámbulos
+      <br />Cali, Colombia</p></b></h4></center>
+    </div>
+  </div>
+
   </footer>
 
 </div><!-- /.container -->
@@ -234,7 +244,7 @@
           <form method="post" id="formulario1">
             <div class="form-group row">
 
-              <label for="example-text-input" class="col-2 col-form-label">Nombre del Donador: </label>
+              <label for="example-text-input" class="col-2 col-form-label">Nombre del Donante: </label>
               <div class="col-10">
                 <input class="form-control" type="text" placeholder="Alberto Ruiz" name="nombre" id="example-text-input" required>
               </div>
@@ -250,13 +260,13 @@
               <div class="form-check">
                 <label class="form-check-label">
                   <input type="checkbox" class="form-check-input"  name="Latas"  id="cbox2" value="option2">
-                  Latas
+                  Cartón
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
                   <input type="checkbox" class="form-check-input" name="BotellasPlasticas" id="cbox3" value="option3">
-                  Botellas Plásticas
+                  Plastico
                 </label>
               </div>
               <div class="form-check">
@@ -269,13 +279,13 @@
             <div class="form-group row">
               <label for="example-text-input" class="col-xs-1 col-form-label" id="otro">Otro: </label>
               <div class="col-xs-11">
-                <input class="form-control" type="text" name="otro" id="otrotipo" required>
+                <input class="form-control" type="text" placeholder="ropa, viveres, juguetes" name="otro" id="otrotipo" >
               </div>
             </div>
             <div class="form-group row">
               <label for="example-email-input" class="col-2 col-form-label">Correo Electrónico: </label>
               <div class="col-10">
-                <input class="form-control" type="email" placeholder="camilo12@example.com" name="email" id="example-email-input" required>
+                <input class="form-control" type="email" placeholder="camilo12@example.com" name="email" id="example-email-input" >
               </div>
             </div>
             <div class="form-group row">
@@ -287,7 +297,7 @@
             <div class="form-group row">
               <label for="example-number-input" class="col-2 col-form-label">Cantidad (Kg): </label>
               <div class="col-10">
-                <input class="form-control" type="text" placeholder="5kg" name="cantidad" id="example-number-input" required>
+                <input class="form-control" type="text" placeholder="5kg" name="cantidad" id="example-number-input" >
               </div>
             </div>
             <div class="form-group row">
@@ -305,7 +315,7 @@
             <div class="form-group row">
               <label for="example-time-input" class="col-2 col-form-label">Hora Entrega de la Donación: </label>
               <div class="col-10">
-                <input class="form-control" type="time"  value="13:45:00" name="hora" id="example-time-input" onclick = "if(this.value=='13:45:00') this.value=''" required>
+                <input class="form-control" type="time"  value="13:45:00" name="hora" id="example-time-input" onclick = "if(this.value=='13:45:00') this.value=''" >
               </div>
             </div>
             <div class="form-group row">
@@ -348,7 +358,7 @@
         <div class="container-fluid">
           <form method="post" id="formulario2">
             <div class="form-group row">
-              <label for="example-text-input" class="col-2 col-form-label">Nombre del Donador: </label>
+              <label for="example-text-input" class="col-2 col-form-label">Nombre del Donante: </label>
               <div class="col-10">
                 <input class="form-control" type="text" placeholder="Alberto Ruiz" name="nombre" id="example-text-input" required>
               </div>
@@ -381,15 +391,15 @@
               </div>
             </div>
             <div class="form-group row">
-              <label for="example-text-input" class="col-2 col-form-label">Otro: </label>
-              <div class="col-10">
-                <input class="form-control" type="text" name="otro" id="otrotipo" required>
+              <label for="example-text-input" class="col-xs-1 col-form-label" id="otro">Otro: </label>
+              <div class="col-xs-11">
+                <input class="form-control" type="text" placeholder="alimentos (concentrado), medicinas" name="otro" id="otrotipo" >
               </div>
             </div>
             <div class="form-group row">
               <label for="example-email-input" class="col-2 col-form-label">Correo Electrónico: </label>
               <div class="col-10">
-                <input class="form-control" type="email" placeholder="camilo12@example.com" name="email" id="example-email-input" required>
+                <input class="form-control" type="email" placeholder="camilo12@example.com" name="email" id="example-email-input" >
               </div>
             </div>
             <div class="form-group row">
@@ -401,7 +411,7 @@
             <div class="form-group row">
               <label for="example-number-input" class="col-2 col-form-label">Cantidad (Kg): </label>
               <div class="col-10">
-                <input class="form-control" type="text" placeholder="5kg" name:"cantidad" id="example-number-input" required>
+                <input class="form-control" type="text" placeholder="5kg" name:"cantidad" id="example-number-input" >
               </div>
             </div>
             <div class="form-group row">
@@ -419,7 +429,7 @@
             <div class="form-group row">
               <label for="example-time-input" class="col-2 col-form-label">Hora Entrega de la Donación: </label>
               <div class="col-10">
-                <input class="form-control" type="time" value="13:45:00" name="hora" id="example-time-input" onclick = "if(this.value=='13:45:00') this.value=''" required>
+                <input class="form-control" type="time" value="13:45:00" name="hora" id="example-time-input" onclick = "if(this.value=='13:45:00') this.value=''" >
               </div>
             </div>
             <div class="form-group row">
@@ -462,7 +472,7 @@
           <div class="container-fluid">
             <form method="post" id="formulario3">
               <div class="form-group row">
-                <label for="example-text-input" class="col-2 col-form-label">Nombre del Donador: </label>
+                <label for="example-text-input" class="col-2 col-form-label">Nombre del Donante: </label>
                 <div class="col-10">
                   <input class="form-control" type="text" placeholder="Alberto Ruiz" name="nombre" id="example-text-input" required>
                 </div>
@@ -475,35 +485,17 @@
                     Tapas Plásticas
                   </label>
                 </div>
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input"  name="Latas"  id="cbox2" value="option2">
-                    Latas
-                  </label>
-                </div>
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" name="BotellasPlasticas" id="cbox3" value="option3">
-                    Botellas Plásticas
-                  </label>
-                </div>
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" name="Papel" id="cbox4" value="option4">
-                    Papel
-                  </label>
-                </div>
               </div>
               <div class="form-group row">
-                <label for="example-text-input" class="col-2 col-form-label">Otro:</label>
-                <div class="col-10">
-                  <input class="form-control" type="text" name="otro" id="otrotipo" required>
+                <label for="example-text-input" class="col-xs-1 col-form-label" id="otro">Otro: </label>
+                <div class="col-xs-11">
+                  <input class="form-control" type="text" placeholder="medicinas, juguetes" name="otro" id="otrotipo" >
                 </div>
               </div>
               <div class="form-group row">
                 <label for="example-email-input" class="col-2 col-form-label">Correo Electrónico: </label>
                 <div class="col-10">
-                  <input class="form-control" type="email" placeholder="camilo12@example.com" name="email" id="example-email-input" required>
+                  <input class="form-control" type="email" placeholder="camilo12@example.com" name="email" id="example-email-input" >
                 </div>
               </div>
               <div class="form-group row">
@@ -515,7 +507,7 @@
               <div class="form-group row">
                 <label for="example-number-input" class="col-2 col-form-label">Cantidad (Kg): </label>
                 <div class="col-10">
-                  <input class="form-control" type="text" placeholder="5kg" name:"cantidad" id="example-number-input" required>
+                  <input class="form-control" type="text" placeholder="5kg" name:"cantidad" id="example-number-input" >
                 </div>
               </div>
               <div class="form-group row">
@@ -533,7 +525,7 @@
               <div class="form-group row">
                 <label for="example-time-input" class="col-2 col-form-label">Hora Entrega de la Donación: </label>
                 <div class="col-10">
-                  <input class="form-control" type="time"  value="13:45:00" name= "hora" id="example-time-input" onclick = "if(this.value=='13:45:00') this.value=''" required>
+                  <input class="form-control" type="time"  value="13:45:00" name= "hora" id="example-time-input" onclick = "if(this.value=='13:45:00') this.value=''" >
                 </div>
               </div>
               <div class="form-group row">
